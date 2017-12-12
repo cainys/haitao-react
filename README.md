@@ -1,2 +1,0 @@
-# haitao-react
-react
