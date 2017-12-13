@@ -9,11 +9,12 @@ import ReactSwipe from 'react-swipe';
 // 引入公共样式
 import '@/css/common.css';
 import RHeader from './component/header.js'
+import Index from './pages/index.js'
 
 export default class App extends Component {
     render() {
         return (
-            <RHeader />
+            <Index />
         );
     }
 }

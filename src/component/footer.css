@@ -1,0 +1,35 @@
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  border-top: 1px solid #ebebeb;
+}
+.footer ul {
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer li {
+  padding-top: 2px;
+  width: 38px;
+}
+.footer a {
+  display: block;
+  background-size: 22px 22px;
+  text-align: center;
+  padding-top: 25px;
+  width: 100%;
+  font-size: 11px;
+}
+.footer-index{
+  background: url('../m-images/footer-index.png') no-repeat center top;
+}
+.footer-classify{
+  background: url('../m-images/footer-classify.png') no-repeat center top;
+}
+.footer-my{
+  background: url('../m-images/footer-my.png') no-repeat center top;
+}
