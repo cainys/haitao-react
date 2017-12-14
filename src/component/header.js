@@ -4,7 +4,7 @@ import './header.css'
 export default class RHeader extends Component{
   render () {
     return (
-      <header className="header">
+      <header className="header clearfix">
         <h1>
           <img src="../m-images/logo.png" alt="logo" />
         </h1>

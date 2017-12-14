@@ -13,7 +13,6 @@
         }
         document.querySelector('html').style.fontSize = winWidth/640 * 24 + 'px';
     });
-
 })();
 
 const commonMthods = {
