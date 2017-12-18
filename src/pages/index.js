@@ -4,7 +4,7 @@ import RFooter from '../component/footer'
 import ReactSwipe from 'react-swipe'
 import GoodsItem from '../component/goodsItem.js'
 import * as Api from '../api/index.js'
-import '../css/swiper.min.css'
+// import '../css/swiper.min.css'
 import './index.css'
 
 export default class Index extends Component {

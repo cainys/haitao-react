@@ -9,7 +9,7 @@ export default class RFooter extends Component{
         <ul>
           <li><Link to="/" className={this.props.activeClass === 'activeIndex' ? 'footer-index-active' : 'footer-index'}>首页</Link></li>
           <li><Link to="/class" className={this.props.activeClass === 'activeClass' ? 'footer-classify-active' : 'footer-classify'}>分类</Link></li>
-          <li><Link to="/my" className={this.props.activeClass === 'activeMy' ? 'footer-my-active' : 'footer-my'}>我的</Link></li>
+          <li><Link to="/login" className={this.props.activeClass === 'activeMy' ? 'footer-my-active' : 'footer-my'}>我的</Link></li>
         </ul>
       </footer>
     )

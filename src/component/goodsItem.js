@@ -2,9 +2,7 @@ import React, { Component } from 'react'
 import './goodsItem.css'
 
 export default class goodsItem extends Component {
-  constructor () {
-    super()
-  }
+
   render () {
     const { goodsItem } = this.props
     return (

@@ -1,0 +1,69 @@
+/** login **/
+.login-header{
+  position: relative;
+}
+.header-back-white{
+  background: url('../../m-images/header-back-white.png') no-repeat center/ 1.3rem 1.3rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  position: absolute;
+  left: 0.875rem;
+  top: 1rem;
+}
+.login-main{
+  padding: 1.333rem;
+}
+.phone-pwd{
+  border: 1px solid #b5b5b5;
+  padding: 15px;
+  background: #fff;
+}
+.phone-pwd .phone{
+  height: 2.5rem;
+  border-bottom: 1px solid #eee;
+  padding-left: 1.875rem;
+  background: url('../../m-images/icon.png') no-repeat 0 0.308rem;
+  background-size: 18.875rem 14.167rem;
+}
+.phone-pwd .pwd{
+  height: 1.8rem;
+  padding-left: 1.875rem;
+  padding-top: 0.833rem;
+  background: url('../../m-images/icon.png') no-repeat 0 -3.5rem;
+  box-sizing: content-box;
+  background-size: 18.875rem 14.167rem;
+}
+.phone-pwd  input{
+  height: 2rem;
+  border: none;
+  width: 20rem;
+  font-size: 1rem;
+}
+.register-back{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.other-login{
+  margin-top: 4.167rem;
+}
+.other-login-main{
+  margin-top: 1.667rem;
+  display: flex;
+  justify-content: space-around;
+}
+.other-login-main a{
+  display: block;
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background-size: 25rem 25rem !important;
+  background: url('../../m-images/icon.png') no-repeat 0.85rem -3.125rem;
+}
+.other-login-main .qq{
+  background-position: .85rem -3.125rem;
+}
+.other-login-main .wb{
+  background-position: .75rem -7.083rem;
+}

@@ -8,6 +8,7 @@ const history = createHistory();
 
 const classIndex = asyncComponent(() => import("@/pages/class/class"));
 const my = asyncComponent(() => import("@/pages/my/my"));
+const login = asyncComponent(() => import("@/pages/my/login"));
 
 
 const RouteConfig = (
@@ -16,7 +17,8 @@ const RouteConfig = (
             <Route path="/"  exact component={index} />
             <Route path="/class" component={classIndex} />
             <Route path="/my" component={my} />                                                                                                                                                                                                                                                                                                                                                                                                                                              
-        </div>
+            <Route path="/login" component={login} />                                                                                                                                                                                                                                                                                                                                                                                                                                              
+            </div>
     </Router>
 );
 export default RouteConfig;
